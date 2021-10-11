@@ -1,0 +1,9 @@
+compAdmin "compmgmt.msc" //утилита администрирования
+google "http://www.google.ru" //гугл
+defrag "dfrg.msc" //дефрагментация
+sleep "rundll32.exe powrprof.dll,SetSuspendState" //переход Windows в спящее состояние
+restart "shutdown -r -c "WinConsul перезагружает Windows, для отмены - stopRestart""
+restartForce "shutdown -r -t 0" //быстрая перезагрузка Windows
+stopRestart "shutdown -a" //отмена перезагрузки/завершения работы Windows
+powerOff "shutdown -s -c "WinConsul завершает работу Windows, для отмены - stopRestart""
+lock "rundll32.exe user32.dll,LockWorkStation"//залочили Windows
